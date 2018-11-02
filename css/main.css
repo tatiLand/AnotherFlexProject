@@ -1,0 +1,120 @@
+html,
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	font-size: 1rem;
+	color: #303137;
+	margin: 0;
+	/*	background-color: #f9fafc;*/
+	background-color: #2b2d30;
+}
+
+.navbar,
+.container,
+.footpad {
+	display: flex;
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+
+.navbar,
+.footpad {
+	background-color: #5a5c5e;
+}
+
+.brandTitle,
+.navlink,
+.foot-linkItem {
+	text-transform: uppercase;
+	/*	color: #303137;*/
+	color: #f9fafc;
+}
+
+.brandTitle {
+	font-size: 25px;
+}
+
+
+
+.topnav {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+/*	align-items: center;*/
+}
+
+.topnav .navlink,
+a {
+	text-decoration: none;
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+/* Portfolio */
+.container {
+	padding-bottom: 40px;
+
+}
+
+.portfolioTitle {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+
+.portfolio-wrapper {
+	display: block;
+	margin: 0 auto;
+	width: 220px;
+	height: 313px;
+
+}
+
+.webBox {
+	width: 100%;
+}
+
+.webBox-blurb {
+	padding: 20px;
+	text-align: center;
+}
+
+.footerBody {
+	width: 100%;
+	margin: auto;
+	color: white;
+	text-align: center;
+
+}
+
+.footer-wrapper {
+	display: flex;
+	width: 100%;
+	margin: auto;
+	justify-content: space-around;
+}
+
+.footer-block {
+	margin: auto;
+	align-content: center;
+}
+
+.footer-heading {
+	color: darkolivegreen;
+	text-align: right;
+}
+
+.foot-linkItem {
+	list-style: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: right;
+}
